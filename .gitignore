@@ -1,4 +1,6 @@
 .vagrant*
+*.DS_Store
 rails
 tmp
 chef/cookbooks
+sizify

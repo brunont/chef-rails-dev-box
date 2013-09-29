@@ -7,6 +7,7 @@ Vagrant::Config.run do |config|
   config.vm.host_name = 'chef-rails-dev-box'
 
   config.vm.network :hostonly, "192.168.30.00"
+  config.vm.forward_port 3000, 3000
   config.vm.share_folder("vagrant-root", "/vagrant", ".", "nfs" => true)
 
   config.vm.provision :chef_solo do |chef|
@@ -27,10 +28,10 @@ Vagrant::Config.run do |config|
           }
         },
         "rbenv" => {
-          "global"  => "2.0.0-p0",
-          "rubies" => [ "2.0.0-p0" ],
+          "global"  => "1.9.2-p290",
+          "rubies" => [ "1.9.2-p290" ],
           "gems" => {
-            "2.0.0-p0" => [
+            "1.9.2-p290" => [
               { 'name' => 'bundler' }
             ]
           }

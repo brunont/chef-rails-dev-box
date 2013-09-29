@@ -45,6 +45,20 @@ GIT
   specs:
     rbenv (0.7.2)
 
+GIT
+  remote: git://github.com/rchampourlier/chef_set_locale.git
+  ref: master
+  sha: dfc4ff3bc28a32ed8eced37c95dc0842c9db4cb2
+  specs:
+    set_locale (0.0.2)
+
+GIT
+  remote: https://github.com/rchampourlier/chef_postgresql_server_utf8
+  ref: master
+  sha: f833dca90d161d301f74a4072d474d04e651eab9
+  specs:
+    postgresql_server_utf8 (0.0.1)
+
 DEPENDENCIES
   apt (>= 0)
   database (>= 0)
@@ -53,7 +67,9 @@ DEPENDENCIES
   mysql (>= 0)
   nodejs (>= 0)
   postgresql (>= 0)
+  postgresql_server_utf8 (>= 0)
   rbenv (>= 0)
   ruby_build (>= 0)
+  set_locale (>= 0)
   sqlite (>= 0)
 

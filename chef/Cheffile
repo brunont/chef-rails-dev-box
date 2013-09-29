@@ -4,12 +4,15 @@
 site 'http://community.opscode.com/api/v1'
 
 cookbook 'apt'
+cookbook 'set_locale', git: 'git://github.com/rchampourlier/chef_set_locale.git', ref: 'master'
 cookbook 'git'
 cookbook 'sqlite'
 cookbook 'mysql'
 cookbook 'memcached'
+cookbook 'postgresql_server_utf8', git: 'https://github.com/rchampourlier/chef_postgresql_server_utf8', ref: 'master'
 cookbook 'postgresql'
 cookbook 'nodejs'
 cookbook 'database'
-cookbook 'rbenv', :git => 'git://github.com/fnichol/chef-rbenv.git', :ref => 'v0.7.2'
+cookbook 'rbenv', git: 'git://github.com/fnichol/chef-rbenv.git', ref: 'v0.7.2'
 cookbook 'ruby_build'
+
