@@ -53,9 +53,9 @@ Comment this line if you are Windows user.
 ## What's In The Box
 
 * Git
-* Ruby 2.0.0-p0 via rbenv
+* Ruby 1.9.2-p290 via rbenv
 * Bundler
-* SQLite3, MySQL, and Postgres
+* SQLite3, MySQL, and Postgres (UTF8)
 * System dependencies for nokogiri, sqlite3, mysql, mysql2, and pg
 * Databases and users needed to run the Active Record test suite
 * Node.js for the asset pipeline
