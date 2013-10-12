@@ -16,7 +16,7 @@ This is port of [rails-dev-box](https://github.com/rails/rails-dev-box) using by
 Building the virtual machine is this easy:
 
 ```zsh
-host $ git clone git@github.com:banyan/chef-rails-dev-box.git
+host $ git clone git@github.com:brunont/chef-rails-dev-box.git
 host $ cd chef-rails-dev-box
 host $ bundle install
 host $ cd chef
